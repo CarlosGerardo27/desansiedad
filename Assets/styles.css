@@ -1,5 +1,65 @@
 * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
   background-color: #f2e7fe;
+}
+
+nav {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+nav .nav__container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+  justify-content: space-evenly;
+}
+nav .nav__logo {
+  position: relative;
+  top: -5px;
+}
+nav .nav__logo img {
+  width: 180px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  padding-left: 10px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li span img {
+  width: 13px;
+  margin-left: 7px;
+}
+nav .nav__buttons {
+  position: relative;
+  top: -10px;
+  margin-left: -70px;
+  display: flex;
+  flex-direction: row;
+}
+nav .nav__buttons .search-icon {
+  width: 40px;
+}
+nav .nav__buttons button {
+  margin-left: 15px;
+  position: relative;
+  top: -5px;
+  height: 50px;
+  border-radius: 40px;
+  padding: 10px 25px 10px 25px;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
