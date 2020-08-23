@@ -166,5 +166,11 @@ nav .nav__buttons button {
 }
 
 /* Animations */
+/* video */
+.video {
+  margin: 0 auto;
+  margin-top: 110px;
+  width: 900px;
+}
 
 /*# sourceMappingURL=styles.css.map */
